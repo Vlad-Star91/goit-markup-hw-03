@@ -1,0 +1,197 @@
+:root {
+  --main-text-color: #212121;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --alt-text-color: #757575;
+  --alt-title-color: #ffffff;
+  --dark-bg: #2f303a;
+  --team-bg: #f5f4fa;
+  --second-bg: #e5e5e5;
+
+  --main-font: 'Roboto', sans-serif;
+  --title-font: 'Raleway', sans-serif;
+}
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+  background-color: var(--second-bg);
+}
+.logo {
+  color: var(--title-color);
+  font-family: var(--title-font);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-color {
+  color: var(--accent-color);
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.site-nav .link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.auth-nav .link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--alt-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: inherit;
+}
+.hero {
+  background-color: var(--dark-bg);
+}
+.hero .hero-title {
+  font-family: var(--main-font);
+  font-weight: 900;
+  max-width: 696px;
+  font-size: 44px;
+  line-height: 1.36;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--alt-title-color);
+}
+
+.hero .button {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--alt-title-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.button-nav button {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  background-color: var(--team-bg);
+  cursor: pointer;
+}
+.button-nav button:hover,
+.button-nav button:focus,
+.button-nav button:active {
+  color: var(--alt-title-color);
+  background-color: var(--accent-color);
+}
+.gallery-list .section-title {
+  font-family: var(--main-font);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+.gallery-list .section-text {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--alt-text-color);
+}
+.features-list .section-title {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+.features-list .section-text {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--alt-text-color);
+}
+.team-section,
+.work-title {
+  font-family: var(--main-font);
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+.team-list .team-title {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+.team-list .team-text {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--alt-text-color);
+}
+.footer {
+  background-color: var(--dark-bg);
+}
+.footer .logo {
+  color: var(--alt-title-color);
+  font-family: var(--title-font);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.footer .address {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--alt-title-color);
+}
+.footer .link {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
