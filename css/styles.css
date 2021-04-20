@@ -198,7 +198,7 @@ p {
   color: var(--title-color);
   background-color: var(--team-bg);
   cursor: pointer;
-  border-color: var(--team-bg);
+  border: none;
 }
 .button-nav button:hover,
 .button-nav button:focus,
@@ -326,14 +326,17 @@ p {
   margin-top: 30px;
   margin-left: 30px;
   border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
   background-color: var(--alt-title-color);
 }
 .portfolio-list {
-  margin: 20px 24px;
+  padding: 20px 24px;
 }
 .team-name {
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: var(--alt-title-color);
 }
 .our-works {
   font-size: 0;
@@ -345,7 +348,6 @@ p {
 }
 .team-list .team-title {
   padding-bottom: 10px;
-  padding-top: 30px;
   text-align: center;
   font-family: var(--main-font);
   font-weight: 500;
@@ -355,7 +357,6 @@ p {
   color: var(--title-color);
 }
 .team-list .team-text {
-  padding-bottom: 30px;
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
