@@ -91,8 +91,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .site-nav {
   display: inline-flex;
@@ -150,7 +148,6 @@ p {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 94px;
 }
 
 .hero .hero-title {
@@ -267,6 +264,7 @@ p {
   margin-left: -30px;
 }
 .feutures {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .work {
@@ -332,6 +330,10 @@ p {
 }
 .portfolio-list {
   margin: 20px 24px;
+}
+.team-name {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .our-works {
   font-size: 0;
