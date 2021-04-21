@@ -212,6 +212,7 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
+  margin-bottom: 4px;
 }
 .gallery-list .section-text {
   font-family: var(--main-font);
@@ -219,6 +220,7 @@ p {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--alt-text-color);
+  margin-bottom: 0px;
 }
 .feutures-title {
   font-size: 0;
@@ -301,7 +303,6 @@ p {
 .button-nav {
   display: flex;
   justify-content: center;
-  min-height: 54px;
   margin-bottom: 50px;
 }
 .team-section,
